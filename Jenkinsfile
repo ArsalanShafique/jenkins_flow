@@ -2,21 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/ArsalanShafique/jenkins_flow.git'
-            }
-        }
-
         stage('Build') {
             steps {
-                sh 'echo Build step'
+                echo 'Building...'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'echo Test step'
+                echo 'Testing...'
             }
         }
     }
