@@ -14,12 +14,11 @@ pipeline {
             }
         }
 
-    }
-
-      stage('Deploy') {
+        stage('Deploy') {              // ✅ Now correctly inside stages
             steps {
                 echo 'Running container...'
                 sh 'docker run -d -p 3000:3000 jenkins_flow_app'
             }
-}
+        }
+    }
 }
