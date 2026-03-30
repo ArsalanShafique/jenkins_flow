@@ -1,7 +1,7 @@
 pipeline {
     agent any
  options {
-        skipDefaultCheckout true   // ✅ must be true or false
+        skipDefaultCheckout(true)   // ✅ must be true or false
     }
     stages {
         stage('Build') {
