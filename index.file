@@ -1,3 +1,4 @@
 console.log("the jenkins is running")
 console.log("trigger is building automatically or not")
+console.log("new setting is updated")
 
