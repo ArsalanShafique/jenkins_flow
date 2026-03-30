@@ -1,3 +1,1 @@
-echo"hellow world"
-echo"this is just testing website"
-echo"the triggering is updated"
+echo"check the jenkins triggering is working or not"
