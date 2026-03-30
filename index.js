@@ -1,1 +1,1 @@
-echo"check the jenkins triggering is working or not"
+echo"then jenkins is working fine or not "
